@@ -4,7 +4,7 @@ function delay(ms) {
 }
 
 async function asyncFun() {
-	let Time = parseInt(document.getElementByID('delay').value)
+	let Time = parseInt(document.getElementById('delay').value)
 	let text = document.getElementById('text').value
 	await delay(Time)
 	document.getElementById('output').textcontent = text
